@@ -3,8 +3,8 @@ This guide describes how to setup a pre-configured OpenWRT-Router to act as Rout
 
 ## Introduction
 ### What the hell is OpenWRT?
-In every router, there is a chip running linux and a custom interface of whatever manufacturer, AVM (Fritz!Box), Netgear, Asus, TP-Link, to just name a few of thousands.
-OpenWRT is a completlty open source firmware and user interface that can do more than all of those together, because it can basically do whatever you want. If that's a good idea? That's something you have to decide.
+In every router, there is a chip running **linux** and a custom interface of whatever manufacturer, AVM (Fritz!Box), Netgear, Asus, TP-Link, to just name a few of thousands.
+**OpenWRT** is a completlty **open source firmware** and user interface for consumer routers and even professional grade devices that can do more than all of those together, because it can basically do whatever you want. If that's a good idea? That's something you have to decide.
 Because Linux isn't free. You have to pay attention.
 
 ### Preconfiguration
@@ -41,6 +41,26 @@ I set up 2 WiFi Networks named BLAN-2.4 and BLAN-5. For Credentials, check the B
 ### LuCI - OpenWrt Configuration Interface
 To access either try [http://emmanzipiert](http://emmanzipiert.lan/) or [http://192.168.1.1/](http://192.168.1.1/).
 Credentials are also in the Bitwarden Send.
+
+### Change the WiFi Name
+To change the Name of the WiFi Radios, do the following:
+![image](https://github.com/user-attachments/assets/dc2e24ae-bfde-4694-9be3-38d228c77d45)
+1. Go to **Network**
+2. **Wireless**
+3. Edit (5 GHz Radio)
+4. Edit (2.4 GHz Radio)
+
+![image](https://github.com/user-attachments/assets/8a64bf41-1e71-4da4-8463-8f5d8f173bb5)
+
+In the Tab **General Setup (1)** you can select a different **(E)SSID (2)** (Service Set Identifier, the Name of your WiFi Network).
+
+![image](https://github.com/user-attachments/assets/7a477453-1711-4d11-8060-abd2aa3d7765)
+Go to **Wireless Security (1)** to set a new **PSK (2)** (Pre-Shared Key, the password to your WiFi) or press the **(3)** Button to reveal the PSK. 
+
+
+
+
+
 
 ### Changing the Hostname of the device
 Currently the [Hostname](https://en.wikipedia.org/wiki/Hostname) of the device, the "Adress" in the Network is emmanzipiert.lan. The default is openwrt.lan.
