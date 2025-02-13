@@ -1,17 +1,19 @@
 # the-2am-guide-to-openwrt
 This guide describes how to setup a pre-configured OpenWRT-Router to act as Router, WiFi-Accesspoint and Firewall.
 
-## What the hell is OpenWRT?
+## Introduction
+### What the hell is OpenWRT?
 In every router, there is a chip running linux and a custom interface of whatever manufacturer, AVM (Fritz!Box), Netgear, Asus, TP-Link, to just name a few of thousands.
 OpenWRT is a completlty open source firmware and user interface that can do more than all of those together, because it can basically do whatever you want. If that's a good idea? That's something you have to decide.
 Because Linux isn't free. You have to pay attention.
 
-## Preconfiguration
-- TP-Link Archer C7 v2 has been flashed with [OpenWRT](https://openwrt.org/) (follow [this guide](https://openwrt.org/toh/tp-link/archer_c7) for more infos but it doesn't really matter)
+### Preconfiguration
+- TP-Link Archer C7 v2 has been flashed with [OpenWRT](https://openwrt.org/) with the latest stable image  [/23.05.5/targets/ath79/generic/tplink_archer-c7-v2-squashfs-factory-eu.bin](https://downloads.openwrt.org/releases/23.05.5/targets/ath79/generic/openwrt-23.05.5-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin) and upgraded to the latest development version [24.10.0](https://downloads.openwrt.org/releases/24.10.0/targets/ath79/generic/openwrt-24.10.0-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin)) (follow [this guide](https://openwrt.org/toh/tp-link/archer_c7) for more infos but it doesn't really matter)
 - password for the root user has been set
 - Timezone has been set to Europe/Berlin
 - Hostname of the devices + Description etc have been set
 - The Package [luci-app-statistics](https://openwrt.org/docs/guide-user/luci/luci_app_statistics) has been installed
+- WiFi Networks BLAN-2.4 and BLAN-5 have been setup, Security set to WPA2/3 mixed mode.
 
 ## Connecting the Device
 ![TP-Link ArcherC7-v2](https://github.com/user-attachments/assets/5f21a207-6c9f-489b-9810-d0867bdd78c4)
@@ -39,5 +41,5 @@ It can be possible to "really" brick this router, mostly by installing to much p
 - Werkszustand
 - WLAN Settings + Renaming
 - Firewall, VLAN anteasern
-- 
+- upgrade/downgrade firmware (add link)
 
