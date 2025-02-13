@@ -25,6 +25,13 @@ The yellow Ports are LAN-Ports where you can attach devices to the router (and a
 
 In theory you could connect a Soundcard (like the one from ASUS) and use it to play music via the Router, because welcome to OpenWRT. This box is full of limitless potential like yourself ;)
 
+## Resetting the Device
+Just hold the reset button lol.
+
+It can be possible to "really" brick this router, mostly by installing to much packages (which I did earlier lol), but it's always recoverable. This might involve either setting up a TFTP Server or soldering some wires to a chip and flashing it. I'd strongly recommend the first route as documented [here](https://openwrt.org/toh/tp-link/archer_c7#installation_or_restore_with_tftp).
+
+
+
 
 
 ## COntent
