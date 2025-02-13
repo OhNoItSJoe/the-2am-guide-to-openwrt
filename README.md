@@ -27,7 +27,7 @@ Because Linux isn't free. You have to pay attention.
 
 The yellow Ports are LAN-Ports where you can attach devices to the router (and asign individual VLANs to each of them so you can have "fun" (to me it sadly is) to put your IoT Devices into an individual Network, because why not.
 
-In theory you could connect a Soundcard (like the one from ASUS) and use it to play music via the Router, because welcome to OpenWRT. This box is full of limitless potential like yourself ;)
+In theory you could connect a Soundcard (like the one from ASUS you now have) to the USB Port of the Router and use it to play music via the Router, because welcome to OpenWRT. This box is full of limitless potential like yourself ;)
 
 ### Resetting the Device
 Just hold the reset button lol.
