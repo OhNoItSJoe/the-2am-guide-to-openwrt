@@ -39,9 +39,20 @@ I set up 2 WiFi Networks named BLAN-2.4 and BLAN-5. For Credentials, check the B
 
 ## Configuring the Router
 ### LuCI - OpenWrt Configuration Interface
-To access either try [https://openwrt](http://openwrt.lan/) or [http://192.168.1.1/](http://192.168.1.1/).
+To access either try [http://emmanzipiert](http://emmanzipiert.lan/) or [http://192.168.1.1/](http://192.168.1.1/).
 Credentials are also in the Bitwarden Send.
 
+### Changing the Hostname of the device
+Currently the [Hostname](https://en.wikipedia.org/wiki/Hostname) of the device, the "Adress" in the Network is emmanzipiert.lan. The default is openwrt.lan.
+To change that do the following:
+![image](https://github.com/user-attachments/assets/65257e8d-9997-42f2-ac9e-ab05a7a65765)
+1. Go to System
+2. System
+3. Enter the desired hostname and press save
+
+If you accessed the router via the link http://emanzipiert.lan, you have to now go to whatevernameyouset.lan, because you changed the adress of the device. If you used the IP, nothing will change.
+
+Why use hostnames? Servers can change, but hostnames act as an alias, which you can use to swap the server behind the scenes and your app still will work.
 
 
 ## COntent
