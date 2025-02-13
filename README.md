@@ -75,7 +75,7 @@ If you accessed the router via the link http://emanzipiert.lan, you have to now 
 Why use hostnames? Servers can change, but hostnames act as an alias, which you can use to swap the server behind the scenes and your app still will work.
 
 
-## COntent
+## To Write
 - Reset von OWRT
 - Werkszustand
 - WLAN Settings + Renaming
@@ -83,4 +83,6 @@ Why use hostnames? Servers can change, but hostnames act as an alias, which you 
 - upgrade/downgrade firmware (add link)
 - log file
 - changes and saves
+- how to create a backup
+- stats
 
