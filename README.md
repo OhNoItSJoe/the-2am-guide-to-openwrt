@@ -7,8 +7,9 @@ OpenWRT is a completlty open source firmware and user interface that can do more
 Because Linux isn't free. You have to pay attention.
 
 ## Preconfiguration
-- password for the root user was set
-- Timezone has been set
+- TP-Link Archer C7 v2 has been flashed with [OpenWRT](https://openwrt.org/) (follow [this guide](https://openwrt.org/toh/tp-link/archer_c7) for more infos but it doesn't really matter)
+- password for the root user has been set
+- Timezone has been set to Europe/Berlin
 - Hostname of the devices + Description etc have been set
 - The Package [luci-app-statistics](https://openwrt.org/docs/guide-user/luci/luci_app_statistics) has been installed
 
