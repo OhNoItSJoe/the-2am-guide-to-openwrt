@@ -14,6 +14,7 @@ Because Linux isn't free. You have to pay attention.
 - Hostname of the devices + Description etc have been set
 - The Package [luci-app-statistics](https://openwrt.org/docs/guide-user/luci/luci_app_statistics) has been installed
 - WiFi Networks BLAN-2.4 and BLAN-5 have been setup, Security set to WPA2/3 mixed mode.
+- honestly too much other small shit, if you want to know 100% what, get the base config and compare my config to it :D
 
 ## Physical Setup
 ### Connecting the Device
