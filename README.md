@@ -21,6 +21,10 @@ Because Linux isn't free. You have to pay attention.
 - It really doesn't matter in which order you do it.
 - Done and bamboozled, it was only a 2 Step plan!
 
+The yellow Ports are LAN-Ports where you can attach devices to the router (and asign individual VLANs to each of them so you can have "fun" (to me it sadly is) to put your IoT Devices into an individual Network, because why not.
+
+In theory you could connect a Soundcard (like the one from ASUS) and use it to play music via the Router, because welcome to OpenWRT. This box is full of limitless potential like yourself ;)
+
 
 
 ## COntent
