@@ -35,7 +35,7 @@ Just hold the reset button lol.
 It can be possible to "really" brick this router, mostly by installing to much packages (which I did earlier lol), but it's always recoverable. This might involve either setting up a TFTP Server or soldering some wires to a chip and flashing it. I'd strongly recommend the first route as documented [here](https://openwrt.org/toh/tp-link/archer_c7#installation_or_restore_with_tftp).
 
 ## Connecting to the WiFi
-I set up 2 WiFi Networks named BLAN-2.4 and BLAN-5. For Credentials, check the Bitwarden Send.
+I set up 2 WiFi Networks named "The Holy LAN 2.4" and "The Holy LAN 5". For Credentials, check the Bitwarden Send.
 
 ## Configuring the Router
 ### LuCI - OpenWrt Configuration Interface
