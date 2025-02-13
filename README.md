@@ -15,7 +15,8 @@ Because Linux isn't free. You have to pay attention.
 - The Package [luci-app-statistics](https://openwrt.org/docs/guide-user/luci/luci_app_statistics) has been installed
 - WiFi Networks BLAN-2.4 and BLAN-5 have been setup, Security set to WPA2/3 mixed mode.
 
-## Connecting the Device
+## Physical Setup
+### Connecting the Device
 ![TP-Link ArcherC7-v2](https://github.com/user-attachments/assets/5f21a207-6c9f-489b-9810-d0867bdd78c4)
 4 Step Plan:
 - Connect the Blue Port  (labeled "Internet") with a Router or a Modem, for example a Fritz!Box
@@ -27,12 +28,18 @@ The yellow Ports are LAN-Ports where you can attach devices to the router (and a
 
 In theory you could connect a Soundcard (like the one from ASUS) and use it to play music via the Router, because welcome to OpenWRT. This box is full of limitless potential like yourself ;)
 
-## Resetting the Device
+### Resetting the Device
 Just hold the reset button lol.
 
 It can be possible to "really" brick this router, mostly by installing to much packages (which I did earlier lol), but it's always recoverable. This might involve either setting up a TFTP Server or soldering some wires to a chip and flashing it. I'd strongly recommend the first route as documented [here](https://openwrt.org/toh/tp-link/archer_c7#installation_or_restore_with_tftp).
 
+## Connecting to the WiFi
+I set up 2 WiFi Networks named BLAN-2.4 and BLAN-5. For Credentials, check the Bitwarden Send.
 
+## Configuring the Router
+### LuCI - OpenWrt Configuration Interface
+To access either try [https://openwrt](http://openwrt.lan/) or [http://192.168.1.1/](http://192.168.1.1/).
+Credentials are also in the Bitwarden Send.
 
 
 
@@ -42,4 +49,6 @@ It can be possible to "really" brick this router, mostly by installing to much p
 - WLAN Settings + Renaming
 - Firewall, VLAN anteasern
 - upgrade/downgrade firmware (add link)
+- log file
+- changes and saves
 
