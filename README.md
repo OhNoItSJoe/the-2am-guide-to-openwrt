@@ -70,7 +70,7 @@ To change that do the following:
 2. System
 3. Enter the desired hostname and press save
 
-If you accessed the router via the link http://emanzipiert.lan, you have to now go to whatevernameyouset.lan, because you changed the adress of the device. If you used the IP, nothing will change.
+If you accessed the router via the link http://emanzipiert.lan, you have to now go to http://whatevernameyouset.lan, because you changed the adress of the device. If you used the IP, nothing will change.
 
 Why use hostnames? Servers can change, but hostnames act as an alias, which you can use to swap the server behind the scenes and your app still will work.
 
