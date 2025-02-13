@@ -15,6 +15,11 @@ Because Linux isn't free. You have to pay attention.
 
 ## Connecting the Device
 ![TP-Link ArcherC7-v2](https://github.com/user-attachments/assets/5f21a207-6c9f-489b-9810-d0867bdd78c4)
+4 Step Plan:
+- Connect the Blue Port  (labeled "Internet") with a Router or a Modem, for example a Fritz!Box
+- Connect the Router to the Power
+- It really doesn't matter in which order you do it.
+- Done and bamboozled, it was only a 2 Step plan!
 
 
 
