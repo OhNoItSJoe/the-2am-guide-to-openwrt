@@ -12,7 +12,7 @@ Because Linux isn't free. You have to pay attention.
 - password for the root user has been set
 - Timezone has been set to Europe/Berlin
 - Hostname of the devices + Description etc have been set
-- The Package [luci-app-statistics](https://openwrt.org/docs/guide-user/luci/luci_app_statistics) has been installed
+- The Package [luci-app-statistics](https://openwrt.org/docs/guide-user/luci/luci_app_statistics) has been installed. For some reason it doesn't work. It used to work before. But not anymore. Don't ask me why, idk (yet).
 - WiFi Networks BLAN-2.4 and BLAN-5 have been setup, Security set to WPA2/3 mixed mode.
 - honestly too much other small shit, if you want to know 100% what, get the base config and compare my config to it :D
 
