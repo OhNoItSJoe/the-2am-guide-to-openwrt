@@ -47,8 +47,8 @@ To change the Name of the WiFi Radios, do the following:
 ![image](https://github.com/user-attachments/assets/dc2e24ae-bfde-4694-9be3-38d228c77d45)
 1. Go to **Network**
 2. **Wireless**
-3. Edit (5 GHz Radio)
-4. Edit (2.4 GHz Radio)
+3. **Edit** (for the 5 GHz Radio)
+4. **Edit** (for the 2.4 GHz Radio)
 
 ![image](https://github.com/user-attachments/assets/8a64bf41-1e71-4da4-8463-8f5d8f173bb5)
 
